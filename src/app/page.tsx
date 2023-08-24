@@ -1,5 +1,5 @@
-import MainMap from "@/components/pages/MainMap";
-import MainSearch from "@/components/pages/MainSearch";
+import MainMap from "@/components/modules/MainMap";
+import MainSearch from "@/components/modules/MainSearch";
 
 export default function Home() {
   return (
