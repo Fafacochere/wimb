@@ -26,10 +26,14 @@ export default function MainMap() {
     return <p>Loading...</p>;
   }
 
-  return <div className="w-full h-full">
+  return <div className="w-full h-full absolute z-0">
     <GoogleMap
       zoom={14}
       center={mapCenter}
+      options={{
+        disableDefaultUI: true,
+        heading: 0,
+      }}
       mapContainerStyle={{ width: '100%', height: '100%' }}
       onLoad={() => console.log('Map Component Loaded...')}
     />
