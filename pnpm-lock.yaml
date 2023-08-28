@@ -11,12 +11,6 @@ dependencies:
   '@react-google-maps/api':
     specifier: ^2.19.2
     version: 2.19.2(react-dom@18.2.0)(react@18.2.0)
-  '@trpc/client':
-    specifier: ^10.35.0
-    version: 10.35.0(@trpc/server@10.35.0)
-  '@trpc/server':
-    specifier: ^10.35.0
-    version: 10.35.0
   '@types/node':
     specifier: 20.4.1
     version: 20.4.1
@@ -350,18 +344,6 @@ packages:
     resolution: {integrity: sha512-sJ902EfIzn1Fa+qYmjdQqh8tPsoxyBz+8yBKC2HKUxyezKJFwPGOn7pv4WY6QuQW//ySQi5lJjA/ZT9sNWWNTg==}
     dependencies:
       tslib: 2.6.1
-    dev: false
-
-  /@trpc/client@10.35.0(@trpc/server@10.35.0):
-    resolution: {integrity: sha512-FyVNQGLLsNourpYq7bojvvvpM63woCPL9c+lJo9x1Yheop5fng2GEyiVcVjCmBNk5tVARHjG9bTG1UeNF5t8OQ==}
-    peerDependencies:
-      '@trpc/server': 10.35.0
-    dependencies:
-      '@trpc/server': 10.35.0
-    dev: false
-
-  /@trpc/server@10.35.0:
-    resolution: {integrity: sha512-UntbE9gG+kB2nEwuJ0hw7AmQuRWw67voKaVBPBA7Ow6+aGZc00gva7015Ey5BT7Qf1wq7xJMLUdgw4QiVU+VpQ==}
     dev: false
 
   /@types/google.maps@3.53.5:
