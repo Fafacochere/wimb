@@ -9,9 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.18",
     "@react-google-maps/api": "^2.19.2",
-    "@trpc/client": "^10.35.0",
-    "@trpc/server": "^10.35.0",
     "@types/node": "20.4.1",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
