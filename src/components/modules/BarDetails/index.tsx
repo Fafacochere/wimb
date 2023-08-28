@@ -19,13 +19,14 @@ export default function BarDetails() {
             <div className="bg-white p-4 border-b-2 border-gray-300">
                 <h3 className="text-xl font-semibold">Le bar de la bière</h3>
                 <p className="text-md text-gray-700">4.5 / 5 - à 800m</p>
+                <p className="text-md text-gray-700">Happy Hour : 16h à 19h</p>
             </div>
             <div className="flex flex-nowrap py-2 border-b-2 border-gray-300">
                 <div className="w-1/4 p-2 text-red-900 flex flex-col items-center">
                     <div className="w-10 h-10 p-2.5  border-red-900 rounded-full border mb-1">
                         <MapIcon className="w-5 h-5" />
                     </div>
-                    <div>Go To</div>
+                    <div>Direction</div>
                 </div>
                 <div className="w-1/4 p-2 text-yellow-900 flex flex-col items-center">
                     <div className="w-10 h-10 p-2.5  border-yellow-900 rounded-full border mb-1">

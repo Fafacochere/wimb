@@ -1,5 +1,5 @@
 "use client";
-import { useLoadScript, GoogleMap } from '@react-google-maps/api';
+import { useLoadScript, GoogleMap, Marker } from '@react-google-maps/api';
 import { useMemo } from "react";
 
 export default function MainMap() {
@@ -36,6 +36,14 @@ export default function MainMap() {
       }}
       mapContainerStyle={{ width: '100%', height: '100%' }}
       onLoad={() => console.log('Map Component Loaded...')}
-    />
+    >
+      <Marker position={{ lat: 44.8468584, lng: -0.5753724 }} />
+      <Marker position={{ lat: 44.8405784, lng: -0.5814724 }} />
+      <Marker position={{ lat: 44.8523784, lng: -0.5723724 }} />
+      <Marker position={{ lat: 44.8434784, lng: -0.5704724 }} />
+      <Marker position={{ lat: 44.8309784, lng: -0.5722724 }} />
+      <Marker position={{ lat: 44.8497784, lng: -0.5605724 }} />
+      <Marker position={{ lat: 44.8397784, lng: -0.5730724 }} />
+    </GoogleMap>
   </div>;
 }
