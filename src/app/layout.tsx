@@ -1,5 +1,12 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import dotenv from 'dotenv';
+
+if (process.env.NODE_ENV !== 'production') {
+  dotenv.config({
+    path: '.env.local',
+  });
+}
 
 export const metadata: Metadata = {
   title: 'Wimb - Where is my beer',
